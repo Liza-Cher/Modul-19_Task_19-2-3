@@ -5,7 +5,7 @@ class TestCalc:
     def setup(self):
         self.calc = Calculator()
 
-# Тест сложения
+# тест сложения
     def test_adding_calculation_pass(self):
         assert self.calc.adding(5, 2) == 7
 
